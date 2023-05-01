@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+body{
+    background: white;
+}
+
+#sketch-container{
+    width: 100%;
+}
+
+.button{
+    background-color: white;
+    border: ridge 1px #000000;
+    color: black;
+    position: absolute;
+    /* padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin:0 auto;
+    right:0;
+    font-size: 15px;
+    min-width: 50px; */
+    /* min-height: 15px; */
+    /* cursor: pointer; */ 
+}
+
+.button:hover{
+    background-color: gray;
+}
+
+
+#button-1{
+    display: block;
+}
+
+#video-window{
+    display: none;
+    border: 1px ridge rgb(0, 0, 0);
+}
